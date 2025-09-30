@@ -7,12 +7,14 @@ import {
   FiMenu,
   FiX,
 } from "react-icons/fi";
+import { FaUsersGear } from "react-icons/fa6";
 import { GrGallery } from "react-icons/gr";
 import { Link, useLocation } from "react-router-dom";
 import { useAuth } from "../api/hooks/useAuth";
 import Swal from "sweetalert2";
 import { useTheme } from "../contexts/ThemeProvider";
 import ThemeSwitch from "./themeSwitc";
+import { FaUser } from "react-icons/fa";
 
 const SidebarAdmin = ({ isSidebarOpen, setIsSidebarOpen }) => {
   const location = useLocation();
@@ -49,7 +51,7 @@ const SidebarAdmin = ({ isSidebarOpen, setIsSidebarOpen }) => {
       path: "/admin/galleryAdmin",
     },
     {
-      icon: FiSettings,
+      icon: FaUsersGear  ,
       label: "UserManagement",
       id: "UserManagement",
       path: "/admin/userManagement",

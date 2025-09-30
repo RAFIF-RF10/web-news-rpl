@@ -157,7 +157,6 @@ export const Dashboard = () => {
                       <th className="px-6 py-3 text-left text-xs font-semibold text-gray-500 dark:text-gray-200 uppercase min-w-[200px]">Judul</th>
                       <th className="px-6 py-3 text-left text-xs font-semibold text-gray-500 dark:text-gray-200 uppercase">Tanggal</th>
                       <th className="px-6 py-3 text-left text-xs font-semibold text-gray-500 dark:text-gray-200 uppercase">Status</th>
-                      <th className="px-6 py-3 text-left text-xs font-semibold text-gray-500 dark:text-gray-200 uppercase">Views</th>
                       <th className="px-6 py-3 text-left text-xs font-semibold text-gray-500 dark:text-gray-200 uppercase min-w-[150px]">Actions</th>
                     </tr>
                   </thead>
@@ -188,9 +187,7 @@ export const Dashboard = () => {
                              'Pending'}
                           </span>
                         </td>
-                        <td className="px-6 py-4 text-sm text-gray-500 dark:text-gray-300">
-                          {n.views || 0}
-                        </td>
+                       
                         <td className="px-6 py-4">
                           <div className="flex space-x-2 flex-wrap gap-1">
                             {n.status === 'draft' && (
