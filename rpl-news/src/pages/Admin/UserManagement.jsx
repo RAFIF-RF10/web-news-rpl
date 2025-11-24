@@ -123,12 +123,12 @@ const UserManagement = () => {
     <div className="h-full w-full bg-[#ECEEF0] dark:bg-[#252e4b] py-12 px-2 md:px-6 transition-colors duration-300">
       {/* Header */}
       <div className="flex justify-between items-center mb-8">
-        <h1 className="text-2xl md:text-3xl font-bold text-white ">
+        <h1 className="text-2xl md:text-3xl font-bold dark:text-white text-black">
           Kelola User
         </h1>
         <button
           onClick={() => handleOpenModal(false)}
-          className="flex items-center gap-2 px-4 py-2 bg-[#3D53A0] dark:bg-[#5A77DF] text-white rounded-lg shadow hover:bg-[#5A77DF] dark:hover:bg-[#3D53A0] transition"
+          className="flex items-center gap-2 px-4 py-2 bg-[#5A77DF] dark:bg-[#5A77DF] text-white rounded-lg shadow hover:bg-[#5A77DF] dark:hover:bg-[#3D53A0] transition"
         >
           <FiUserPlus className="w-5 h-5" />
           Tambah User

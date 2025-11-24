@@ -7,7 +7,7 @@ export default function About() {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           <div className="lg:w-1/2 w-full">
-            <h2 className="text-3xl sm:text-4xl dark:text-[#5A77DF] lg:text-5xl font-bold text-foreground mb-6 dark:text- leading-tight text-left">
+            <h2 className="text-3xl sm:text-4xl dark:text-[#ffffff] lg:text-5xl font-bold text-foreground mb-6 dark:text- leading-tight text-left">
               Tentang Jurusan RPL
             </h2>
             
